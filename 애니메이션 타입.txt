@@ -1,0 +1,5 @@
+
+
+0 = 제일 처음의 거북이. 파일명 turtle.
+
+1 = 적 몬스터(오징어). 파일명 little cuttlefish.

@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="정보 파일%28.txt%29">
+      <UniqueIdentifier>{1a0d62f7-3226-4143-8108-795886d449bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="정보 파일%28.txt%29\함수">
+      <UniqueIdentifier>{a855b4ba-76fc-4a80-8e68-cd28e853e64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="정보 파일%28.txt%29\함수\클래스 멤버">
+      <UniqueIdentifier>{5aad5def-5a86-4276-b629-24219685a7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="정보 파일%28.txt%29\함수\전역">
+      <UniqueIdentifier>{c9670d72-5f0c-4320-96f8-fc63c81e2ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="정보 파일%28.txt%29\함수\클래스 멤버\CEnemy">
+      <UniqueIdentifier>{9834b690-41e1-4d02-be60-eefc2f5151bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="정보 파일%28.txt%29\기타 정보">
+      <UniqueIdentifier>{509f7108-3d88-47bd-8fac-611470f72d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\게임 전역">
+      <UniqueIdentifier>{c9b64484-e9df-4a06-81c4-2b95b0b25cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\게임 전역">
+      <UniqueIdentifier>{d040a0e5-e7b7-4643-bbc6-8df64ecb8c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\적 클래스">
+      <UniqueIdentifier>{54984a18-145c-4ec0-a17a-95fac31a6c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\총알 클래스">
+      <UniqueIdentifier>{03b39b3f-b539-4ee8-aac8-3c530fc18ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\적 클래스">
+      <UniqueIdentifier>{96f1cb31-5e3f-4c3a-a08c-cf938b90f459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\효과 클래스">
+      <UniqueIdentifier>{d4381445-3760-4389-8c99-99b1ccae0544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\효과 클래스">
+      <UniqueIdentifier>{93a638c8-e25a-4dbb-9277-cb9764bf4c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\총알 클래스">
+      <UniqueIdentifier>{e6be1a19-8ba8-488d-9c62-df5782af0097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\아이템 클래스">
+      <UniqueIdentifier>{2f811ca2-6dc0-4957-9774-ea2c8a25993f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\아이템 클래스">
+      <UniqueIdentifier>{4a324197-3833-415a-a304-977a73f28762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\적 클래스\스테이지 1 보스">
+      <UniqueIdentifier>{d168c4b7-341f-4d75-967b-29e8e4e17417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\적 클래스\스테이지 1 보스">
+      <UniqueIdentifier>{71cc3427-5c03-49f5-840b-3ce0e9a1cd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\기타 클래스">
+      <UniqueIdentifier>{b708f089-bec7-4fbb-a4a0-f5cabcb52788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기타 클래스">
+      <UniqueIdentifier>{c62690a7-0c03-45b9-ba28-66ae50cced0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>소스 파일\게임 전역</Filter>
+    </ClCompile>
+    <ClCompile Include="Paint.cpp">
+      <Filter>소스 파일\게임 전역</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>소스 파일\게임 전역</Filter>
+    </ClCompile>
+    <ClCompile Include="CLittleCuttlefish.cpp">
+      <Filter>소스 파일\적 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="StageProcess.cpp">
+      <Filter>소스 파일\게임 전역</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>소스 파일\적 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet.cpp">
+      <Filter>소스 파일\총알 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerBaseBullet.cpp">
+      <Filter>소스 파일\총알 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffect.cpp">
+      <Filter>소스 파일\효과 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CPbbEffect.cpp">
+      <Filter>소스 파일\효과 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemyBaseBullet.cpp">
+      <Filter>소스 파일\총알 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CStarfish.cpp">
+      <Filter>소스 파일\적 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>소스 파일\아이템 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CShrimpItem.cpp">
+      <Filter>소스 파일\아이템 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CBigCuttlefish.cpp">
+      <Filter>소스 파일\적 클래스\스테이지 1 보스</Filter>
+    </ClCompile>
+    <ClCompile Include="CBigCuttlefishLeg.cpp">
+      <Filter>소스 파일\적 클래스\스테이지 1 보스</Filter>
+    </ClCompile>
+    <ClCompile Include="CBigCuttlefishBody.cpp">
+      <Filter>소스 파일\적 클래스\스테이지 1 보스</Filter>
+    </ClCompile>
+    <ClCompile Include="CBigCuttlefishEye.cpp">
+      <Filter>소스 파일\적 클래스\스테이지 1 보스</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>소스 파일\기타 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CUpgrade.cpp">
+      <Filter>소스 파일\기타 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CBitmap.cpp">
+      <Filter>소스 파일\기타 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CDArray.cpp">
+      <Filter>소스 파일\기타 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>소스 파일\기타 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>소스 파일\기타 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CScore.cpp">
+      <Filter>소스 파일\기타 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitle.cpp">
+      <Filter>소스 파일\기타 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CGarfish.cpp">
+      <Filter>소스 파일\적 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemSlot.cpp">
+      <Filter>소스 파일\아이템 클래스</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameProcess.h">
+      <Filter>헤더 파일\게임 전역</Filter>
+    </ClInclude>
+    <ClInclude Include="Paint.h">
+      <Filter>헤더 파일\게임 전역</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일\게임 전역</Filter>
+    </ClInclude>
+    <ClInclude Include="WinMain.h">
+      <Filter>헤더 파일\게임 전역</Filter>
+    </ClInclude>
+    <ClInclude Include="StageProcess.h">
+      <Filter>헤더 파일\게임 전역</Filter>
+    </ClInclude>
+    <ClInclude Include="CLittleCuttlefish.h">
+      <Filter>헤더 파일\적 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>헤더 파일\총알 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerBaseBullet.h">
+      <Filter>헤더 파일\총알 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffect.h">
+      <Filter>헤더 파일\효과 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CPbbEffect.h">
+      <Filter>헤더 파일\효과 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemyBaseBullet.h">
+      <Filter>헤더 파일\총알 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CStarfish.h">
+      <Filter>헤더 파일\적 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>헤더 파일\아이템 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CShrimpItem.h">
+      <Filter>헤더 파일\아이템 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CBigCuttlefish.h">
+      <Filter>헤더 파일\적 클래스\스테이지 1 보스</Filter>
+    </ClInclude>
+    <ClInclude Include="CBigCuttlefishLeg.h">
+      <Filter>헤더 파일\적 클래스\스테이지 1 보스</Filter>
+    </ClInclude>
+    <ClInclude Include="CBigCuttlefishBody.h">
+      <Filter>헤더 파일\적 클래스\스테이지 1 보스</Filter>
+    </ClInclude>
+    <ClInclude Include="CBigCuttlefishEye.h">
+      <Filter>헤더 파일\적 클래스\스테이지 1 보스</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>헤더 파일\기타 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CUpgrade.h">
+      <Filter>헤더 파일\기타 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CBitmap.h">
+      <Filter>헤더 파일\기타 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CDArray.h">
+      <Filter>헤더 파일\기타 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>헤더 파일\기타 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>헤더 파일\기타 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CScore.h">
+      <Filter>헤더 파일\기타 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitle.h">
+      <Filter>헤더 파일\기타 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CGarfish.h">
+      <Filter>헤더 파일\적 클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemSlot.h">
+      <Filter>헤더 파일\아이템 클래스</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="개요.txt">
+      <Filter>정보 파일%28.txt%29\기타 정보</Filter>
+    </None>
+    <None Include="참고.txt">
+      <Filter>정보 파일%28.txt%29\기타 정보</Filter>
+    </None>
+    <None Include="애니메이션 타입.txt">
+      <Filter>정보 파일%28.txt%29\기타 정보</Filter>
+    </None>
+    <None Include="CEnemy.h">
+      <Filter>헤더 파일\적 클래스</Filter>
+    </None>
+    <None Include="스테이지 정보.txt">
+      <Filter>정보 파일%28.txt%29\기타 정보</Filter>
+    </None>
+    <None Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="우리 거북이가 달라졌어요.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
